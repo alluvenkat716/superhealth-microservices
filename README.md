@@ -59,15 +59,13 @@ production-style configuration.
 - Maven
 
 ---
-## Cloud & Storage (AWS)
+## AWS Usage
 
-The Claim Service includes AWS integration for file storage using Amazon S3.
-AWS configuration is externalized using environment variables and is designed
-to support cloud-based deployment without hardcoding credentials.
+I added AWS S3 support to the Claim Service for storing files and documents in a cloud-friendly manner. The integration is designed to be simple and driven by configuration.
 
-- AWS S3 for document or file storage
-- Region and bucket configuration via environment variables
-- No AWS credentials committed to source control
+- Uses Amazon S3 for storing files
+- AWS region and bucket are configured using environment variables
+- No AWS credentials or secrets are committed to the repository
 
 ## Running Locally
 
