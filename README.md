@@ -55,7 +55,6 @@ production-style configuration.
 - OAuth2 / OpenID Connect
 - JWT
 - PostgreSQL
-- AWS (S3)
 - Maven
 
 ---
@@ -66,6 +65,7 @@ I added AWS S3 support to the Claim Service for storing files and documents in a
 - Uses Amazon S3 for storing files
 - AWS region and bucket are configured using environment variables
 - No AWS credentials or secrets are committed to the repository
+=======
 
 ## Running Locally
 
