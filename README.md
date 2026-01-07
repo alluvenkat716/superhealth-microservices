@@ -55,9 +55,19 @@ production-style configuration.
 - OAuth2 / OpenID Connect
 - JWT
 - PostgreSQL
+- AWS (S3)
 - Maven
 
 ---
+## Cloud & Storage (AWS)
+
+The Claim Service includes AWS integration for file storage using Amazon S3.
+AWS configuration is externalized using environment variables and is designed
+to support cloud-based deployment without hardcoding credentials.
+
+- AWS S3 for document or file storage
+- Region and bucket configuration via environment variables
+- No AWS credentials committed to source control
 
 ## Running Locally
 
